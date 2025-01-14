@@ -34,6 +34,6 @@ Contributions to the Shaheen Datasets Hub are welcome! You can:
 
 Each dataset has its own license, provided in the dataset folder. Unless otherwise stated, all datasets adhere to Apache License 2.0.
 
-💬 Connect
+## 💬 Connect
 
 For discussions, suggestions, and more, feel free to create an issue or reach out directly!
