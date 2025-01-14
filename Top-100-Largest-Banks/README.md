@@ -47,7 +47,7 @@ If you use this dataset, please cite it as:
 The data is machine-generated (using web scraping) and subjected to human additional treatment.
 
 below, I provide the script I created to scrape the data (as well as my additional treatment):
-
+```
 import scrapy
 
 class LargestBanksSpider(scrapy.Spider):
@@ -75,3 +75,4 @@ class LargestBanksSpider(scrapy.Spider):
                     "Bank Name": bank_name,
                     "Total Assets (2023, US$ billion)": total_assets.strip()
                 }
+```
