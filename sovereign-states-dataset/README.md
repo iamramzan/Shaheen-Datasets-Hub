@@ -62,7 +62,7 @@ Contributions are welcome! If you spot an issue or have suggestions for improvem
 The data is machine-generated (using web scraping) and subjected to human additional treatment.
 
 below, I provide the script I created to scrape the data (as well as my additional treatment):
-
+```
 import scrapy
 
 
@@ -91,7 +91,7 @@ class StatesspiderSpider(scrapy.Spider):
                 'Sovereignty Dispute': sovereignty_dispute,
                 'Further Information': further_information,
             }
-
+```
 ## Usage
 
 ### Loading the Dataset in Python
@@ -106,3 +106,4 @@ df = pd.read_csv(url)
 
 # Preview the dataset
 print(df.head())
+```
