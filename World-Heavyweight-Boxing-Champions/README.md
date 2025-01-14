@@ -20,7 +20,7 @@ This dataset contains information about world heavyweight boxing champions extra
 The data is machine-generated (using web scraping) and subjected to human additional treatment.
 
 below, I provide the script I created to scrape the data (as well as my additional treatment):
-
+```
 import scrapy
 import re
 
@@ -54,7 +54,7 @@ class ChampionsSpider(scrapy.Spider):
                 "Title_defenses": clean_text(row.xpath('.//td[7]//text()').get()),
                 "Additional_recognition": clean_text(row.xpath('.//td[8]//text()').get()),
             }
-
+```
 ### Dataset Creation
 - Source: Data was scraped from the Wikipedia page using a Python Scrapy script.
 - Cleaning: Special characters and extra whitespace were removed to ensure a clean dataset.
@@ -88,3 +88,4 @@ Special thanks to Wikipedia contributors for compiling the original data.
   "Title_defenses": "2",
   "Additional_recognition": "First three-division champion"
 }
+```
