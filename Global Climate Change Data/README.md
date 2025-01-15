@@ -1,17 +1,17 @@
-### Greenhouse Gas Emissions Dataset
+## Greenhouse Gas Emissions Dataset
 
 This dataset contains information about greenhouse gas (GHG) emissions (ktCO2/year) for various countries, territories, regions, and groups, scraped from Wikipedia. It provides detailed data about emissions over time and includes per capita emissions, percentage of global total, and the change in emissions since 1990.
 
 ---
 
-### Dataset Summary
+## Dataset Summary
 
 This dataset is a valuable resource for analyzing greenhouse gas emissions across countries, regions, and the world. It provides a comprehensive time series of emissions data along with additional insights such as:
 - Percentage of global total emissions.
 - Changes in emissions since 1990 (baseline year).
 - Per capita emissions.
 
-### Dataset Features:
+## Dataset Features:
 - **Country/Territory/Region/Group**: Name of the country, region, or group.
 - **GHG Emissions (ktCO2/year)**: Total greenhouse gas emissions for each year (1970, 1990, 2000, 2010, 2020, 2021, 2022, and 2023).
 - **% of Global Total**: The percentage of total global emissions contributed by the country or region.
@@ -20,7 +20,7 @@ This dataset is a valuable resource for analyzing greenhouse gas emissions acros
 
 ---
 
-### Source
+## Source
 
 The dataset was scraped from the Wikipedia page: [List of countries by greenhouse gas emissions](https://en.wikipedia.org/wiki/List_of_countries_by_greenhouse_gas_emissions).
 
@@ -29,14 +29,14 @@ The data is available under the [Creative Commons Attribution-ShareAlike License
 
 ---
 
-### Splits
+## Splits
 
 The dataset contains one split:
 - **train**: Includes all rows and columns from the table (approximately 200 entries).
 
 ---
 
-### Examples
+## Examples
 
 Here's a sample record from the dataset:
 
@@ -48,7 +48,7 @@ Here's a sample record from the dataset:
 
 ---
 
-### Usage
+## Usage
 
 You can load this dataset using the Hugging Face `datasets` library:
 
