@@ -24,7 +24,7 @@ Contributions to the Shaheen Datasets Hub are welcome! You can:
 - Help improve documentation and metadata.
   
 ## How to Contribute
-1. Fork this repository.
+1. Fork this repository
 2. Create a new branch for your changes: git checkout -b feature/new-dataset  
 3. Commit your changes: git commit -m "Added [Dataset Name]"  
 4. Push to your forked repository: git push origin feature/new-dataset  
